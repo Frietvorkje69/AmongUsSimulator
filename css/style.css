@@ -1,0 +1,134 @@
+@font-face {
+    font-family: amongUs;
+    src: url(../fonts/amongUs.ttf);
+}
+
+div {
+    font-size: 40px;
+    color: #9A0910;
+    font-family: 'amongUs', sans-serif;
+}
+
+body {
+    background-image: url("../img/background.jpg");
+    background-color: #cccccc;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    font-size: 2em;
+    padding-top: 3vh;
+    text-align: center;
+    height: 20vh;
+    background-size: cover;
+    background-position: center;
+    background-color: black;
+}
+
+h1 {
+    text-align: center;
+    font-size: 80px;
+    color: #9A0910;
+    font-family: 'amongUs', sans-serif;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    color: #9A0910;
+    font-family: 'amongUs', sans-serif;
+}
+
+#playing-field {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.playing-card {
+    margin: 5px;
+    width: 200px;
+}
+
+input, button {
+    width: 200px;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+#alert {
+    font-size: 40px;
+    color: #9A0910;
+    text-align: center;
+}
+
+#alert button {
+    width: 75px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+input[type="submit"] {
+    width: 205px;
+    background-color: #181818;
+    color: white;
+    padding: 12px 20px;
+    border: 3px solid #9A0910;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type="get"] {
+    width: 205px;
+    background-color: #181818;
+    color: white;
+    padding: 12px 20px;
+    border: 3px solid #9A0910;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+input[type=get]:hover {
+    background-color: #9A0910;
+    font-weight: bold;
+}
+
+
+input[type=submit]:hover {
+    background-color: #9A0910;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    font-size: 40px;
+    color: #9A0910;
+    font-family: 'amongUs', sans-serif;
+}
+
+.alert {
+    font-size: 40px;
+    color: #9A0910;
+    font-family: 'amongUs', sans-serif;
+}
+
+.bigZoom {
+    transition: .1s ease-in-out;
+}
+
+.bigZoom:hover {
+    transform: scale(1.5);
+}
+
+.smallZoom {
+    transition: .1s ease-in-out;
+}
+
+.smallZoom:hover {
+    transform: scale(1.1);
+}
